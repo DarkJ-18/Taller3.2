@@ -34,7 +34,7 @@
             this.txthorastrabajadas = new System.Windows.Forms.TextBox();
             this.txtvalorhora = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbltotalsalario = new System.Windows.Forms.Label();
             this.btncalcularsalario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -92,15 +92,15 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Total:";
             // 
-            // label5
+            // lbltotalsalario
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(83, 241);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 19);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "SalarioAPagar";
+            this.lbltotalsalario.AutoSize = true;
+            this.lbltotalsalario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalsalario.Location = new System.Drawing.Point(83, 241);
+            this.lbltotalsalario.Name = "lbltotalsalario";
+            this.lbltotalsalario.Size = new System.Drawing.Size(118, 19);
+            this.lbltotalsalario.TabIndex = 6;
+            this.lbltotalsalario.Text = "SalarioAPagar";
             // 
             // btncalcularsalario
             // 
@@ -119,7 +119,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(579, 299);
             this.Controls.Add(this.btncalcularsalario);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lbltotalsalario);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtvalorhora);
             this.Controls.Add(this.txthorastrabajadas);
@@ -141,7 +141,7 @@
         private System.Windows.Forms.TextBox txthorastrabajadas;
         private System.Windows.Forms.TextBox txtvalorhora;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbltotalsalario;
         private System.Windows.Forms.Button btncalcularsalario;
     }
 }
